@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-31T13:07:32.958Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="Eg5A9IYuCRZ4jiUQivS1" version="24.4.13" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-31T13:24:38.579Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="FCgaIAdMoiHPgKW8x2s-" version="24.4.13" type="github">
   <diagram name="第 1 页" id="oe9ZxlC4tc7tIgAXN7jd">
     <mxGraphModel dx="792" dy="1097" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,14 +10,29 @@
         <mxCell id="h-2xrqitMRjB52nUt63J-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6C8EBF;fontStyle=1" edge="1" parent="1" source="h-2xrqitMRjB52nUt63J-2" target="h-2xrqitMRjB52nUt63J-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="h-2xrqitMRjB52nUt63J-28" value="二次分析后船员当前状态及报警信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="h-2xrqitMRjB52nUt63J-13">
+          <mxGeometry x="0.2889" y="-2" relative="1" as="geometry">
+            <mxPoint x="-2" y="8" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="h-2xrqitMRjB52nUt63J-2" value="本地服务器&lt;div&gt;泰山派RK5566&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6C8EBF;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="340" y="340" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="h-2xrqitMRjB52nUt63J-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6C8EBF;fontStyle=1" edge="1" parent="1" source="h-2xrqitMRjB52nUt63J-3" target="h-2xrqitMRjB52nUt63J-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="h-2xrqitMRjB52nUt63J-32" value="基础测量数据、当前船员状态信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="h-2xrqitMRjB52nUt63J-6">
+          <mxGeometry x="-0.3429" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="h-2xrqitMRjB52nUt63J-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6C8EBF;fontStyle=1" edge="1" parent="1" source="h-2xrqitMRjB52nUt63J-3" target="h-2xrqitMRjB52nUt63J-7">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h-2xrqitMRjB52nUt63J-33" value="船员当前状态" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="h-2xrqitMRjB52nUt63J-8">
+          <mxGeometry x="-0.0286" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="h-2xrqitMRjB52nUt63J-3" value="ESP32主控芯片" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6C8EBF;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="340" y="470" width="120" height="60" as="geometry" />
@@ -25,23 +40,43 @@
         <mxCell id="h-2xrqitMRjB52nUt63J-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6C8EBF;fontStyle=1" edge="1" parent="1" source="h-2xrqitMRjB52nUt63J-4" target="h-2xrqitMRjB52nUt63J-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="h-2xrqitMRjB52nUt63J-29" value="船员的视觉数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="h-2xrqitMRjB52nUt63J-5">
+          <mxGeometry x="0.1913" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="h-2xrqitMRjB52nUt63J-4" value="Esp32-cam" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6C8EBF;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="150" y="470" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="h-2xrqitMRjB52nUt63J-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6C8EBF;fontStyle=1" edge="1" parent="1" source="h-2xrqitMRjB52nUt63J-7" target="h-2xrqitMRjB52nUt63J-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="h-2xrqitMRjB52nUt63J-31" value="船员当前状态" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="h-2xrqitMRjB52nUt63J-12">
+          <mxGeometry x="-0.1143" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="h-2xrqitMRjB52nUt63J-7" value="LoRa模块" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6C8EBF;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="540" y="470" width="120" height="60" as="geometry" />
+          <mxGeometry x="600" y="470" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="h-2xrqitMRjB52nUt63J-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6C8EBF;fontStyle=1" edge="1" parent="1" source="h-2xrqitMRjB52nUt63J-9" target="h-2xrqitMRjB52nUt63J-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="h-2xrqitMRjB52nUt63J-30" value="船员当前状态" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="h-2xrqitMRjB52nUt63J-11">
+          <mxGeometry x="-0.375" y="2" relative="1" as="geometry">
+            <mxPoint x="-26" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="h-2xrqitMRjB52nUt63J-9" value="本地LoRa模块" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6C8EBF;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="540" y="340" width="120" height="60" as="geometry" />
+          <mxGeometry x="600" y="340" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="h-2xrqitMRjB52nUt63J-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6C8EBF;fontStyle=1" edge="1" parent="1" source="h-2xrqitMRjB52nUt63J-14" target="h-2xrqitMRjB52nUt63J-3">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h-2xrqitMRjB52nUt63J-34" value="ppg数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="h-2xrqitMRjB52nUt63J-23">
+          <mxGeometry x="-0.7619" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="h-2xrqitMRjB52nUt63J-14" value="Max30102模块&lt;div&gt;ppg传感器&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6C8EBF;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="294" y="610" width="120" height="60" as="geometry" />
@@ -49,21 +84,36 @@
         <mxCell id="h-2xrqitMRjB52nUt63J-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6C8EBF;fontStyle=1" edge="1" parent="1" source="h-2xrqitMRjB52nUt63J-15" target="h-2xrqitMRjB52nUt63J-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="h-2xrqitMRjB52nUt63J-35" value="加速计及陀螺仪数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="h-2xrqitMRjB52nUt63J-25">
+          <mxGeometry x="-0.7765" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="h-2xrqitMRjB52nUt63J-15" value="Mpu6500&lt;div&gt;加速计与陀螺仪&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6C8EBF;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="430" y="610" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="h-2xrqitMRjB52nUt63J-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6C8EBF;fontStyle=1" edge="1" parent="1" source="h-2xrqitMRjB52nUt63J-18" target="h-2xrqitMRjB52nUt63J-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="h-2xrqitMRjB52nUt63J-38" value="视觉信号" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="h-2xrqitMRjB52nUt63J-20">
+          <mxGeometry x="-0.25" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="h-2xrqitMRjB52nUt63J-18" value="ov7670&lt;div&gt;摄像头模块&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6C8EBF;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="150" y="610" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="h-2xrqitMRjB52nUt63J-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6C8EBF;fontStyle=1" edge="1" parent="1" source="h-2xrqitMRjB52nUt63J-21" target="h-2xrqitMRjB52nUt63J-3">
+        <mxCell id="h-2xrqitMRjB52nUt63J-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="h-2xrqitMRjB52nUt63J-21" target="h-2xrqitMRjB52nUt63J-3">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="630" y="570" />
               <mxPoint x="400" y="570" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h-2xrqitMRjB52nUt63J-37" value="报警信号" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="h-2xrqitMRjB52nUt63J-26">
+          <mxGeometry x="-0.8452" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="h-2xrqitMRjB52nUt63J-21" value="Max98357&lt;br&gt;&lt;div&gt;音频模块&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6C8EBF;fontStyle=1" vertex="1" parent="1">
@@ -75,6 +125,11 @@
               <mxPoint x="767" y="570" />
               <mxPoint x="400" y="570" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h-2xrqitMRjB52nUt63J-36" value="位置信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="h-2xrqitMRjB52nUt63J-27">
+          <mxGeometry x="-0.8971" y="-5" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="h-2xrqitMRjB52nUt63J-22" value="GPS模块" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6C8EBF;fontStyle=1" vertex="1" parent="1">
