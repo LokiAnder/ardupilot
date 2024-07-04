@@ -1,9 +1,70 @@
-<mxfile host="app.diagrams.net" modified="2024-07-04T15:16:09.158Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.6.4" etag="gRhfrtYQ9rG1mvkBw-Ll" type="github">
-  <diagram name="第 1 页" id="y_KLMXZCqJEKWqedxB3T">
+<mxfile host="app.diagrams.net" modified="2024-07-04T15:31:25.222Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.6.4" etag="wO7RE-bTtgzLaIz24yMT" type="github">
+  <diagram name="第 1 页" id="onAEeV1lifAv0JlDunHE">
     <mxGraphModel>
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="2" value="需求分析与系统设计" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry y="84" width="160" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="CNN模型设计与优化" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="254" width="158" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="多源数据融合" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="505" y="84" width="112" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="船员姿态监测设备开发" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="244" y="84" width="177" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="LSTM模型设计与优化" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="250" y="168" width="164" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="系统集成与测试" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="701" y="84" width="128" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="涉及" style="curved=1;startArrow=none;endArrow=block;exitX=0.65;exitY=0;entryX=0;entryY=0.5;" edge="1" parent="1" source="2" target="3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="202" y="17" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9" value="依赖" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.32;entryY=0;" edge="1" parent="1" source="3" target="4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="463" y="17" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="10" value="涉及" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="2" target="5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="11" value="依赖" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="5" target="4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="12" value="涉及" style="curved=1;startArrow=none;endArrow=block;exitX=0.65;exitY=1;entryX=0;entryY=0.5;" edge="1" parent="1" source="2" target="6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="202" y="185" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="13" value="依赖" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.32;entryY=1;" edge="1" parent="1" source="6" target="4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="463" y="185" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="14" value="依赖" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="4" target="7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
